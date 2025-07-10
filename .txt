@@ -1,3 +1,1 @@
-color 04
-cls
-echo Hello, Test!
+@echo off & color 04 & cls & echo Hello, Test!

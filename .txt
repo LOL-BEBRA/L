@@ -4,4 +4,3 @@ color 04
 cls
 
 echo Hello, Test!
-start powershell.exe

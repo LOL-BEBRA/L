@@ -1,1 +1,6 @@
-mshta \"javascript:var sh=new ActiveXObject('WScript.Shell'); sh.Popup('HELLO, Test!', 0, 'TEST', 64);close();\"
+set File = %temp%/file.bat
+echo @echo off >> %File%
+echo color 04 >> %File%
+echo cls >> %File%
+echo echo Hello World >> %File%
+echo pause > nul >> %File%

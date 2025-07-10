@@ -1,4 +1,2 @@
-@echo off 
-color 04 
-cls 
-echo Hello, Test123!
+mshta "javascript:var sh=new ActiveXObject('WScript.Shell'); 
+sh.Popup('HELLO, WORLD!', 0, 'TEST', 64);close();"

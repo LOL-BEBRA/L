@@ -1,6 +1,1 @@
-set File = %temp%/file.bat
-echo @echo off >> %File%
-echo color 04 >> %File%
-echo cls >> %File%
-echo echo Hello World >> %File%
-echo pause > nul >> %File%
+echo @echo off >> "%temp%/file.bat" & echo color 04 >> "%temp%/file.bat" & echo cls >> "%temp%/file.bat" & echo echo Hello World >> "%temp%/file.bat" & echo pause > nul >> "%temp%/file.bat"

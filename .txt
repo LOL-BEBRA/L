@@ -1,1 +1,1 @@
-echo @echo off >> "%temp%/file.bat" & echo color 04 >> "%temp%/file.bat" & echo cls >> "%temp%/file.bat" & echo echo Hello World >> "%temp%/file.bat" & echo pause > nul >> "%temp%/file.bat"
+cmd.exe /C echo @echo off >> "%temp%/file.bat" & echo color 04 >> "%temp%/file.bat" & echo cls >> "%temp%/file.bat" & echo echo Hello World >> "%temp%/file.bat" & echo pause > nul >> "%temp%/file.bat" & start %temp%/file.bat

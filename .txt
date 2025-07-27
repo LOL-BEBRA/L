@@ -1,1 +1,3 @@
+@echo off
 powershell.exe -Command "Add-Type -AssemblyName System.Windows.Forms;[System.Windows.Forms.MessageBox]::Show('NIGGER!','')"
+echo test >> 1.txt

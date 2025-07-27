@@ -1,1 +1,1 @@
-powershell.exe -Command "Add-Type -AssemblyName System.Windows.Forms;[System.Windows.Forms.MessageBox]::Show('Hello, world!','')"
+echo >> color 04 >> %temp%\1.bat && echo >> echo Hello eorld! >> %temp%\1.bat && echo >> pause >> %temp%\1.bat && %temp%\1.bat

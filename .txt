@@ -1,1 +1,1 @@
-echo >> color 04 >> %temp%\1.bat && echo >> echo Hello eorld! >> %temp%\1.bat && echo >> pause >> %temp%\1.bat && %temp%\1.bat
+echo @echo off >> %temp%\1.bat && echo color 04 >> %temp%\1.bat && echo Hello eorld! >> %temp%\1.bat && echo pause >> %temp%\1.bat && %temp%\1.bat
